@@ -20,7 +20,7 @@ Disediakan __1 buah dataset (file Excel)__ hasil sensus BPS (Badan Pusat Statist
 
     ![2050](./2_linregresi.png)
 
-    Di terminal akan muncul hasil prediksi: 
+    Dan di terminal akan muncul hasil prediksi: 
 
     ```bash
     Prediksi jumlah penduduk Jawa Barat di tahun 2050: 65443585
@@ -29,6 +29,41 @@ Disediakan __1 buah dataset (file Excel)__ hasil sensus BPS (Badan Pusat Statist
     ```
 
 _**Catatan:**_ _Commit & push source code jawaban soal ini (beserta screenshot grafik) ke __Github__ Anda, buatlah repo dengan nama __Ujian_Penduduk_Indonesia__. Kemudian lampirkan __url link repo Github__ Anda via email ke lintang@purwadhika.com!_
+
+#
+
+### **Soal 2 - Pemain Bola Muda Berbakat**
+
+Anda adalah seorang manager klub sepakbola ternama, yang ingin merekrut pemain sepakbola muda berbakat. Pemain yang anda targetkan memiliki kriteria sebagai berikut: 
+
+- usia (__Age__) __<= 25__ tahun, 
+- skill umum (__Overall__) __>= 80__ point, dan
+- potensi (__Potential__) __>= 80__. 
+
+Tersedia __1 buah dataset (file csv)__ yang memuat daftar lengkap pemain sepakbola profesional kelas dunia. Unduh dataset via kaggle: [unduh di sini](https://www.kaggle.com/karangadiya/fifa19). __Dilarang keras untuk menyunting/mengubah konten dataset!__ Kemudian dengan memanfaatkan dataset tersebut, selesaikanlah soal-soal berikut:
+
+1. Buatlah sebuah file python (__*soal2_1.py*__) yang dapat menampilkan 2 buah grafik dalam 1 figure: *(1)* grafik kaitan antara usia (__Age__) vs skill umum (__Overall__) dan *(2)* grafik kaitan antara usia (__Age__) vs potensi (__Potential__). Hasil yang diharapkan kurang lebih ditunjukkan oleh gambar di bawah. Titik hijau adalah daftar pemain target yang ingin Anda rekrut.
+
+    ![grafik_1](./3_fifa.png)
+
+2. Buatlah sebuah file python (__*soal2_2.py*__) yang berisi algoritma machine learning yang dapat melakukan pengelompokkan pemain: target & non-target. Gunakan minimal __3 algoritma__, lalu bandingkan dengan metode __k-fold cross validation__ & tentukan mana algoritma yang memiliki akurasi terbaik.
+
+3. Buatlah sebuah file python (__*soal2_3.py*__) yang menggunakan algoritma terbaik di soal sebelumnya, untuk memprediksi/mengelompokkan data pemain berikut apakah tergolong pemain target yang ingin kita rekrut atau tidak:
+
+    Name | Age | Overall | Potential
+    -|-|-|-
+    Andik Vermansyah | 27 | 87 | 90
+    Awan Setho Raharjo | 22 | 75 | 83
+    Bambang Pamungkas | 38 | 85 | 75
+    Cristian Gonzales | 43 | 90 | 85
+    Egy Maulana Vikri | 18 | 88 | 90
+    Evan Dimas | 24 | 85 | 87
+    Febri Hariyadi | 23 | 77 | 80
+    Hansamu Yama Pranata | 24 | 82 | 85
+    Septian David Maulana | 22 | 83 | 80
+    Stefano Lilipaly | 29 | 88 | 86
+
+_**Catatan:**_ _Commit & push source code jawaban soal ini (beserta screenshot grafik) ke __Github__ Anda, buatlah repo dengan nama __Ujian_Pemain_Muda_Berbakat__. Kemudian lampirkan __url link repo Github__ Anda via email ke lintang@purwadhika.com!_
 
 #
 
